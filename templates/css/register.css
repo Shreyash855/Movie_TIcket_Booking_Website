@@ -1,0 +1,80 @@
+/* Center the form on the page */
+
+body{
+    color: #38274c;
+    background-color: #38274c;
+}
+h2{
+    color: antiquewhite;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    border: #ccc;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit and cancel buttons */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Style the cancel button */
+  button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Style the error messages */
+  input:invalid {
+    border-color: #f44336;
+  }
+  
+  input:focus:invalid {
+    box-shadow: 0 0 5px #f44336;
+  }
+  
+  input:valid {
+    border-color: #4CAF50;
+    border-width: 3px;
+  }
+  
+  input:focus:valid {
+    box-shadow: 0 0 5px #4CAF50;
+    border-width: 3px;
+
+  }
+  
+  label{
+    color: aliceblue;
+    
+  }

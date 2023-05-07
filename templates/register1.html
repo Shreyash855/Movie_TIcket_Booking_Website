@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <center><h2><u>Register with us</u></h2></center>
+    <form method="post" action="#">
+        <label for="registration_id">Registration ID*</label>
+        <input type="text" id="registration_id" name="registration_id" placeholder="e.g. 23WP0001" pattern="[0-9A-Za-z]{8}" required>
+      
+        <label for="username">Username*</label>
+        <input type="text" id="username" name="username" placeholder="Your username" pattern="[A-Za-z]+" required>
+      
+        <label for="password">Password*</label>
+        <input type="password" id="password" name="password" placeholder="Your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?=.*[a-zA-Z]).{8,}" required>
+      
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+      
+        <label for="mobile_number">Mobile number*</label>
+        <input type="tel" id="mobile_number" name="mobile_number" placeholder="Your mobile number" pattern="[1-9]{1}[0-9]{9}" required>
+      
+        <label for="dob">DOB*</label>
+        <input type="date" id="dob" name="dob" placeholder="DDMMYYYY" required>
+      
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+      </form>      
+</body>
+</html>

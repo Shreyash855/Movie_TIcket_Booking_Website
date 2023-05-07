@@ -1,0 +1,32 @@
+body{
+    color: #38274c;
+    background-color: #38274c;
+}
+h1{
+    color: antiquewhite;
+    margin-left: 30px;
+}
+h3{
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+.names{
+    margin:30px;
+}
+
+a{
+    margin: 20px;
+}
+
+.names{
+    border: 2px solid rgb(99, 156, 255);
+    border-radius: 5px;
+    border-width: 2px ;
+}
+
+button{
+    background-color: aliceblue;
+    border-radius: 2px;
+    font-size: 20px;
+}
