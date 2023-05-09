@@ -9,34 +9,45 @@
 </head>
 <body>
     <h1> Nearby Theatres</h1>
+    <div class="desc">
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const movieName = urlParams.get('moviename');
+            const price = urlParams.get('price');
+            document.write('<h3 align="center">Movie : '+movieName+'</h3>');
+            document.write('<h3 align="center">Price : '+price+'</h3>');
+            const bookingUrl = 'booking1.html?price=' + encodeURIComponent(price);
+            
+        </script>
+    </div>
     <div class="screens">
         <div class="names">
             <h3><u>Cinepolis: Season Mall, Pune</h3></u>
-            <a href="booking.html"><button>9:00</button></a>
-            <a href="booking.html"><button>12:00</button></a>
-            <a href="booking.html"><button>2:30</button></a>
-            <a href="booking.html"><button>4:00</button></a>
+            <button onclick="window.location.href = bookingUrl">9:00</button>
+            <button onclick="window.location.href = bookingUrl">12:00</button>
+            <button onclick="window.location.href = bookingUrl">4:30</button>
+            <button onclick="window.location.href = bookingUrl">7:00</button>
         </div>
         <div class="names">
             <h3><u>PVR: Kumar Pacific, Pune</u></h3>
-            <a href="booking.html"><button>9:00</button></a>
-            <a href="booking.html"><button>12:00</button></a>
-            <a href="booking.html"><button>2:30</button></a>
-            <a href="booking.html"><button>4:00</button></a>
+            <button onclick="window.location.href = bookingUrl">9:00</button>
+            <button onclick="window.location.href = bookingUrl">12:00</button>
+            <button onclick="window.location.href = bookingUrl">4:30</button>
+            <button onclick="window.location.href = bookingUrl">7:00</button>
         </div>
         <div class="names">
             <h3><u>PVR ICON: The Pavillion Pune</u></h3>
-            <a href="booking.html"><button>9:00</button></a>
-            <a href="booking.html"><button>12:00</button></a>
-            <a href="booking.html"><button>2:30</button></a>
-            <a href="booking.html"><button>4:00</button></a>
+            <button onclick="window.location.href = bookingUrl">9:00</button>
+            <button onclick="window.location.href = bookingUrl">12:00</button>
+            <button onclick="window.location.href = bookingUrl">4:30</button>
+            <button onclick="window.location.href = bookingUrl">7:00</button>
         </div>
         <div class="names">
             <h3><u>INOX: Amanora Town Centre, Hadapsar</u></h3>
-            <a href="booking.html"><button>9:00</button></a>
-            <a href="booking.html"><button>12:00</button></a>
-            <a href="booking.html"><button>2:30</button></a>
-            <a href="booking.html"><button>4:00</button></a>
+            <button onclick="window.location.href = bookingUrl">9:00</button>
+            <button onclick="window.location.href = bookingUrl">12:00</button>
+            <button onclick="window.location.href = bookingUrl">4:30</button>
+            <button onclick="window.location.href = bookingUrl">7:00</button>
         </div>
     </div>
 </body>

@@ -15,11 +15,11 @@ body {
   font-family: 'Lato', 'sans-serif';
 }
 
-.movie-container {
+/* .movie-container {
   margin: 20px 0;
-}
+} */
 
-.movie-container select {
+/* .movie-container select {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
@@ -29,7 +29,7 @@ body {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-}
+} */
 
 .container {
   perspective: 1000px;
@@ -37,7 +37,7 @@ body {
 }
 
 .seat {
-  background-color: #444451;
+  background-color: #43ff56;
   height: 12px;
   width: 15px;
   margin: 3px;
@@ -46,11 +46,11 @@ body {
 }
 
 .seat.selected {
-  background-color: #6feaf6;
+  background-color: #e8ff3d;
 }
 
 .seat.occupied {
-  background-color: #fff;
+  background-color: #08f7ff;
 }
 
 .seat:nth-of-type(2) {
@@ -111,4 +111,12 @@ p.text {
 
 p.text span {
   color: #6feaf6;
+}
+
+p{
+  color: aliceblue;
+}
+
+h1{
+  color: #f5e3e3;
 }

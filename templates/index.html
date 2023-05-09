@@ -13,7 +13,7 @@
             <ul>
                 <li><img src="images/Shreyash.png" alt="" height="30" width="30"></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
+                <li><a>Categories</a></li>
                 <li><a href="theatres.html">Theatres</a></li>
                 <li><a href="#">Movies</a></li>
 
@@ -28,7 +28,7 @@
             <img src="images/fastx.png" alt="">
             
             <div class="buttons">
-                <a href="theatres.html" class="btn">Book Now</a>
+                <a href="theatres.html?moviename=Fast X&price=24" class="btn">Book Now</a>
                 <a href="https://www.youtube.com/watch?v=32RAq6JzY-w" class="btn-alt btn" target="_blank">Play Trailer</a>
             </div>
         </div>
@@ -37,29 +37,38 @@
     <div class="gallery">
           <img src="images/Dasara-2023.jpg" alt="Cinque Terre" width="200" height="300">
         <div class="desc">
-            <a href="theatres.html"><button>Book Now</button></a>
+            <p class="movie_name">Dasara</p>
+            <p id="price" value="10">Price : 10$</p>
+            <a href="theatres.html?moviename=Dasara&price=10"><button>Book Now</button></a>
         </div>
     </div>
       
       <div class="gallery">
           <img src="images/Guardians-of-the-Galaxy-Vol.-3-2023.jpg" alt="Forest" width="200" height="300">
         <div class="desc">
-            <a href="theatres.html"><button>Book Now</button></a>
+            <p class="movie_name">Guardians of Galaxy Vol-3</p>
+            <p id="price" value="15">Price : 15$</p>
+            <a href="theatres.html?moviename=Guardians of Galaxy Vol-3&price=15"><button>Book Now</button></a>
         </div>
       </div>
       
       <div class="gallery">
           <img src="images/Creed-III-1-200x300.jpg" alt="Northern Lights" width="600" height="400">
         <div class="desc">
-            <a href="theatres.html"><button>Book Now</button></a>
+            <p class="movie_name">Creed 3</p>
+            <p id="price" value="12">Price : 12$</p>
+            <a href="theatres.html?moviename=Creed 3&price=12"><button>Book Now</button></a>
         </div>
       </div>
       
       <div class="gallery">
           <img src="images/Download-John-Wick-Chapter-4-2023-English-720p-1.jpg" alt="Mountains" width="600" height="400">
         <div class="desc">
-            <a href="theatres.html"><button>Book Now</button></a>
+            <p class="movie_name">John Wick Chapter 4</p>
+            <p id="price" value="20">Price : 20$</p>
+            <a href="theatres.html?moviename=John Wick Chapter 4&price=20"><button>Book Now</button></a>
         </div>
       </div>
+      <script src="script.js"></script>
 </body>
 </html>
